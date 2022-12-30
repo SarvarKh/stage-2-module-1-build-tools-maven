@@ -2,6 +2,6 @@ package com.epam.utils;
 
 public class StringUtils {
     public static boolean isPositiveNumber(String str) {
-        //code!
+        return Integer.valueOf(str) % 2 == 0 ? true : false;
     }
 }
